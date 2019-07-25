@@ -1,0 +1,29 @@
+{
+  "name": "jscommon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "clean": "rimraf build",
+    "build": "babel src --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenttan0214/jscommon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenttan0214/jscommon/issues"
+  },
+  "homepage": "https://github.com/kenttan0214/jscommon#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-minify": "^0.5.0",
+    "rimraf": "^2.6.3"
+  }
+}
