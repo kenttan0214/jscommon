@@ -1,6 +1,6 @@
 {
   "name": "@kent0214/jscommon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "common javascript library",
   "main": "build/index.js",
   "scripts": {
