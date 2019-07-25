@@ -5,7 +5,7 @@
   "main": "build/index.js",
   "scripts": {
     "clean": "rimraf build",
-    "build": "babel src --out-dir build"
+    "build1": "babel src --out-dir build"
   },
   "repository": {
     "type": "git",
