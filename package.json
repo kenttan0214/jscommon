@@ -1,10 +1,11 @@
 {
   "name": "@kent0214/jscommon",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "common javascript library",
   "main": "build/index.js",
   "scripts": {
-    "clean": "rimraf build"
+    "clean": "rimraf build",
+    "something": "babel src --out-dir build"
   },
   "repository": {
     "type": "git",
